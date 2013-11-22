@@ -1,4 +1,7 @@
-ops
-===
+Online Paper Submission
+=======================
 
-Online paper submission
+Online Paper Submission
+
+# TODO
+* Write documentation
