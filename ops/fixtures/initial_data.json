@@ -90,10 +90,10 @@
     }
 },
 {
-    "pk": "vndw7cf4zh8b8hjdtpx5a0ikwv6vqzcl", 
+    "pk": "bwjc4ofaue3ld1dwyx3payip8obipmmx", 
     "model": "sessions.session", 
     "fields": {
-        "expire_date": "2013-12-06T15:15:23.771Z", 
+        "expire_date": "2013-12-06T17:08:17.351Z", 
         "session_data": "YzBmNDY5MjNhYzkwYTk1YTE4NDc5MzkyODZkNzQwYWY3MzMwZDYxYzp7Il9hdXRoX3VzZXJfYmFja2VuZCI6ImRqYW5nby5jb250cmliLmF1dGguYmFja2VuZHMuTW9kZWxCYWNrZW5kIiwiX2F1dGhfdXNlcl9pZCI6MX0="
     }
 },
@@ -130,6 +130,45 @@
     "model": "ops.keyword", 
     "fields": {
         "name": "embedded systems"
+    }
+},
+{
+    "pk": "fslwk0tg270ff78r", 
+    "model": "ops.paper", 
+    "fields": {
+        "abstract": "Adaptive MAC Scheme using Queue Information for Underwater Environmental Monitoring System Adaptive MAC Scheme using Queue Information for Underwater Environmental Monitoring System Adaptive MAC Scheme using Queue Information for Underwater Environmental Monitoring System Adaptive MAC Scheme using Queue Information for Underwater Environmental Monitoring System Adaptive MAC Scheme using Queue Information for Underwater Environmental Monitoring System Adaptive MAC Scheme using Queue Information for Underwater Environmental Monitoring System Adaptive MAC Scheme using Queue Information for Underwater Environmental Monitoring System Adaptive MAC Scheme using Queue Information for Underwater Environmental Monitoring System Adaptive MAC Scheme using Queue Information for Underwater Environmental Monitoring System Adaptive MAC Scheme using Queue Information for Underwater Environmental Monitoring System Adaptive MAC Scheme using Queue Information for Underwater Environmental Monitoring System Adaptive MAC Scheme using Queue Information for Underwater Environmental Monitoring System Adaptive MAC Scheme using Queue Information for Underwater Environmental Monitoring System Adaptive MAC Scheme using Queue Information for Underwater Environmental Monitoring System Adaptive MAC Scheme using Queue Information for Underwater Environmental Monitoring System Adaptive MAC Scheme using Queue Information for Underwater Environmental Monitoring System Adaptive MAC Scheme using Queue Information for Underwater Environmental Monitoring System Adaptive MAC Scheme using Queue Information for Underwater Environmental Monitoring System Adaptive MAC Scheme using Queue Information for Underwater Environmental Monitoring System Adaptive MAC Scheme using Queue Information for Underwater Environmental Monitoring System Adaptive MAC Scheme using Queue Information for Underwater Environmental Monitoring System Adaptive MAC Scheme using Queue Information for Underwater Environmental Monitoring System Adaptive MAC Scheme using Queue Information for Underwater Environmental Monitoring System Adaptive MAC Scheme using Queue Information for Underwater Environmental Monitoring System Adaptive MAC Scheme using Queue Information for Underwater Environmental Monitoring System Adaptive MAC Scheme using Queue Information for Underwater Environmental Monitoring System Adaptive MAC Scheme using Queue Information for Underwater Environmental Monitoring System Adaptive MAC Scheme using Queue Information for Underwater Environmental Monitoring System Adaptive MAC Scheme using Queue Information for Underwater Environmental Monitoring System Adaptive MAC Scheme using Queue Information for Underwater Environmental Monitoring System Adaptive MAC Scheme using Queue Information for Underwater Environmental Monitoring System ", 
+        "author": "nsso1lhuyc5bvgla", 
+        "keyword": [
+            4, 
+            2
+        ], 
+        "title": "Adaptive MAC Scheme using Queue Information for Underwater Environmental Monitoring System"
+    }
+},
+{
+    "pk": "s0w5d7ttn5xjvvf2", 
+    "model": "ops.paper", 
+    "fields": {
+        "abstract": "The Smart Electronic Tagging System based on Context-Awareness and Machine-to-Machine interworking The Smart Electronic Tagging System based on Context-Awareness and Machine-to-Machine interworking The Smart Electronic Tagging System based on Context-Awareness and Machine-to-Machine interworking The Smart Electronic Tagging System based on Context-Awareness and Machine-to-Machine interworking The Smart Electronic Tagging System based on Context-Awareness and Machine-to-Machine interworking The Smart Electronic Tagging System based on Context-Awareness and Machine-to-Machine interworking The Smart Electronic Tagging System based on Context-Awareness and Machine-to-Machine interworking The Smart Electronic Tagging System based on Context-Awareness and Machine-to-Machine interworking The Smart Electronic Tagging System based on Context-Awareness and Machine-to-Machine interworking The Smart Electronic Tagging System based on Context-Awareness and Machine-to-Machine interworking The Smart Electronic Tagging System based on Context-Awareness and Machine-to-Machine interworking The Smart Electronic Tagging System based on Context-Awareness and Machine-to-Machine interworking The Smart Electronic Tagging System based on Context-Awareness and Machine-to-Machine interworking The Smart Electronic Tagging System based on Context-Awareness and Machine-to-Machine interworking The Smart Electronic Tagging System based on Context-Awareness and Machine-to-Machine interworking The Smart Electronic Tagging System based on Context-Awareness and Machine-to-Machine interworking The Smart Electronic Tagging System based on Context-Awareness and Machine-to-Machine interworking The Smart Electronic Tagging System based on Context-Awareness and Machine-to-Machine interworking The Smart Electronic Tagging System based on Context-Awareness and Machine-to-Machine interworking The Smart Electronic Tagging System based on Context-Awareness and Machine-to-Machine interworking The Smart Electronic Tagging System based on Context-Awareness and Machine-to-Machine interworking The Smart Electronic Tagging System based on Context-Awareness and Machine-to-Machine interworking The Smart Electronic Tagging System based on Context-Awareness and Machine-to-Machine interworking The Smart Electronic Tagging System based on Context-Awareness and Machine-to-Machine interworking The Smart Electronic Tagging System based on Context-Awareness and Machine-to-Machine interworking The Smart Electronic Tagging System based on Context-Awareness and Machine-to-Machine interworking The Smart Electronic Tagging System based on Context-Awareness and Machine-to-Machine interworking The Smart Electronic Tagging System based on Context-Awareness and Machine-to-Machine interworking The Smart Electronic Tagging System based on Context-Awareness and Machine-to-Machine interworking The Smart Electronic Tagging System based on Context-Awareness and Machine-to-Machine interworking The Smart Electronic Tagging System based on Context-Awareness and Machine-to-Machine interworking The Smart Electronic Tagging System based on Context-Awareness and Machine-to-Machine interworking The Smart Electronic Tagging System based on Context-Awareness and Machine-to-Machine interworking The Smart Electronic Tagging System based on Context-Awareness and Machine-to-Machine interworking The Smart Electronic Tagging System based on Context-Awareness and Machine-to-Machine interworking The Smart Electronic Tagging System based on Context-Awareness and Machine-to-Machine interworking The Smart Electronic Tagging System based on Context-Awareness and Machine-to-Machine interworking The Smart Electronic Tagging System based on Context-Awareness and Machine-to-Machine interworking ", 
+        "author": "zcqlgwck028343iq", 
+        "keyword": [
+            3
+        ], 
+        "title": "The Smart Electronic Tagging System based on Context-Awareness and Machine-to-Machine interworking"
+    }
+},
+{
+    "pk": "vo2q2ixlwkoqangj", 
+    "model": "ops.paper", 
+    "fields": {
+        "abstract": "Underwater Acoustic Sniffer Aiming to Debug MAC Protocol Underwater Acoustic Sniffer Aiming to Debug MAC Protocol Underwater Acoustic Sniffer Aiming to Debug MAC Protocol Underwater Acoustic Sniffer Aiming to Debug MAC Protocol Underwater Acoustic Sniffer Aiming to Debug MAC Protocol Underwater Acoustic Sniffer Aiming to Debug MAC Protocol Underwater Acoustic Sniffer Aiming to Debug MAC Protocol Underwater Acoustic Sniffer Aiming to Debug MAC Protocol Underwater Acoustic Sniffer Aiming to Debug MAC Protocol Underwater Acoustic Sniffer Aiming to Debug MAC Protocol Underwater Acoustic Sniffer Aiming to Debug MAC Protocol Underwater Acoustic Sniffer Aiming to Debug MAC Protocol Underwater Acoustic Sniffer Aiming to Debug MAC Protocol Underwater Acoustic Sniffer Aiming to Debug MAC Protocol Underwater Acoustic Sniffer Aiming to Debug MAC Protocol Underwater Acoustic Sniffer Aiming to Debug MAC Protocol Underwater Acoustic Sniffer Aiming to Debug MAC Protocol Underwater Acoustic Sniffer Aiming to Debug MAC Protocol Underwater Acoustic Sniffer Aiming to Debug MAC Protocol Underwater Acoustic Sniffer Aiming to Debug MAC Protocol Underwater Acoustic Sniffer Aiming to Debug MAC Protocol Underwater Acoustic Sniffer Aiming to Debug MAC Protocol ", 
+        "author": "ah78ml3jx0y37llq", 
+        "keyword": [
+            4, 
+            3, 
+            1
+        ], 
+        "title": "Underwater Acoustic Sniffer Aiming to Debug MAC Protocol"
     }
 },
 {
@@ -425,7 +464,7 @@
         "is_active": true, 
         "is_superuser": true, 
         "is_staff": true, 
-        "last_login": "2013-11-22T15:15:23.606Z", 
+        "last_login": "2013-11-22T17:08:17.183Z", 
         "groups": [], 
         "user_permissions": [], 
         "password": "pbkdf2_sha256$12000$VfZN97KbDt73$1HnCWRKiNbC7E7sWFVXOdSXcaGYkIJv+m2CsW9BmyP0=", 
@@ -464,6 +503,18 @@
     }
 },
 {
+    "pk": "nsso1lhuyc5bvgla", 
+    "model": "ops.author", 
+    "fields": {
+        "first_name": "JinYoung", 
+        "last_name": "Lee", 
+        "country": "Korea", 
+        "initial": "Ms.", 
+        "user": 1, 
+        "organization": 1
+    }
+},
+{
     "pk": "tgzfxq74h9ptd65k", 
     "model": "ops.author", 
     "fields": {
@@ -472,6 +523,18 @@
         "country": "Korea", 
         "initial": "Mr.", 
         "user": 2, 
+        "organization": 1
+    }
+},
+{
+    "pk": "zcqlgwck028343iq", 
+    "model": "ops.author", 
+    "fields": {
+        "first_name": "Gil-Yong", 
+        "last_name": "Lee", 
+        "country": "Korea", 
+        "initial": "Mr.", 
+        "user": 1, 
         "organization": 1
     }
 },
@@ -613,6 +676,71 @@
         "action_time": "2013-11-22T15:18:23.189Z", 
         "object_repr": "pnbeno3moebb4r3u", 
         "object_id": "pnbeno3moebb4r3u", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 10
+    }
+},
+{
+    "pk": 12, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2013-11-22T17:16:44.216Z", 
+        "object_repr": "vo2q2ixlwkoqangj", 
+        "object_id": "vo2q2ixlwkoqangj", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 10
+    }
+},
+{
+    "pk": 13, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2013-11-22T17:19:33.089Z", 
+        "object_repr": "Ms. Lee J.", 
+        "object_id": "nsso1lhuyc5bvgla", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 9
+    }
+},
+{
+    "pk": 14, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2013-11-22T17:19:35.602Z", 
+        "object_repr": "fslwk0tg270ff78r", 
+        "object_id": "fslwk0tg270ff78r", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 10
+    }
+},
+{
+    "pk": 15, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2013-11-22T17:21:35.200Z", 
+        "object_repr": "Mr. Lee G.", 
+        "object_id": "zcqlgwck028343iq", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 9
+    }
+},
+{
+    "pk": 16, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2013-11-22T17:21:47.662Z", 
+        "object_repr": "s0w5d7ttn5xjvvf2", 
+        "object_id": "s0w5d7ttn5xjvvf2", 
         "change_message": "", 
         "user": 1, 
         "content_type": 10

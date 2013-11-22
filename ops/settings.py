@@ -41,6 +41,15 @@ TEMPLATE_CONTEXT_PROCESSORS = (
     'ops.context_processors.menus',
 )
 
+PASSWORD_HASHERS = (
+        'django.contrib.auth.hashers.BCryptPasswordHasher',
+        'django.contrib.auth.hashers.PBKDF2PasswordHasher',
+        'django.contrib.auth.hashers.PBKDF2SHA1PasswordHasher',
+        'django.contrib.auth.hashers.SHA1PasswordHasher',
+        'django.contrib.auth.hashers.MD5PasswordHasher',
+        'django.contrib.auth.hashers.CryptPasswordHasher',
+)
+
 ROOT_URLCONF = 'ops.urls'
 
 WSGI_APPLICATION = 'ops.wsgi.application'

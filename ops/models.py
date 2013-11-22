@@ -33,12 +33,13 @@ class Author(models.Model):
     initial = models.CharField(max_length=10, null=False, blank=False)
     first_name = models.CharField(max_length=50, null=False, blank=False)
     last_name = models.CharField(max_length=50, null=False, blank=False)
+    #email = models.EmailField()
     country = models.CharField(max_length=50, null=False, blank=False)
     organization = models.ForeignKey(Organization)
     #paper = models.ManyToManyField(Paper, blank=True)
 
     def __unicode__(self):
-        return "%s %s." % (self.last_name, self.first_name[0])
+        return "%s %s %s." % (self.initial, self.last_name, self.first_name[0])
 
     def id_generate(self, size=16, chars=string.ascii_lowercase + string.digits):
         return ''.join(random.choice(chars) for x in range(size))
