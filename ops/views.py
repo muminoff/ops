@@ -1,6 +1,8 @@
 from django.shortcuts import render
 from django.contrib.auth.decorators import login_required
 from ops.models import Paper, Author
+from django.core.cache import cache
+from django.views.decorators.cache import never_cache
 
 
 def home_page(request):

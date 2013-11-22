@@ -1,5 +1,7 @@
 {% extends "base.html" %}
+{% load cache %}
 {% block content %}
+{% cache 3600 papers %}
 <h1>Papers</h1>
 <table class="table table-hover">
     <thead>
@@ -41,6 +43,7 @@
             <td>{{ a.country }}</td>
         </tr>
         {% endfor %}
+        {% endcache %}
     </tbody>
 </table>
 {% endblock %}
