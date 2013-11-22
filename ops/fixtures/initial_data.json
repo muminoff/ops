@@ -1,0 +1,621 @@
+[
+{
+    "pk": 1, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+        "model": "logentry", 
+        "name": "log entry", 
+        "app_label": "admin"
+    }
+},
+{
+    "pk": 2, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+        "model": "permission", 
+        "name": "permission", 
+        "app_label": "auth"
+    }
+},
+{
+    "pk": 3, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+        "model": "group", 
+        "name": "group", 
+        "app_label": "auth"
+    }
+},
+{
+    "pk": 4, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+        "model": "user", 
+        "name": "user", 
+        "app_label": "auth"
+    }
+},
+{
+    "pk": 5, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+        "model": "contenttype", 
+        "name": "content type", 
+        "app_label": "contenttypes"
+    }
+},
+{
+    "pk": 6, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+        "model": "session", 
+        "name": "session", 
+        "app_label": "sessions"
+    }
+},
+{
+    "pk": 7, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+        "model": "organization", 
+        "name": "organization", 
+        "app_label": "ops"
+    }
+},
+{
+    "pk": 8, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+        "model": "keyword", 
+        "name": "keyword", 
+        "app_label": "ops"
+    }
+},
+{
+    "pk": 9, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+        "model": "author", 
+        "name": "author", 
+        "app_label": "ops"
+    }
+},
+{
+    "pk": 10, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+        "model": "paper", 
+        "name": "paper", 
+        "app_label": "ops"
+    }
+},
+{
+    "pk": "vndw7cf4zh8b8hjdtpx5a0ikwv6vqzcl", 
+    "model": "sessions.session", 
+    "fields": {
+        "expire_date": "2013-12-06T15:15:23.771Z", 
+        "session_data": "YzBmNDY5MjNhYzkwYTk1YTE4NDc5MzkyODZkNzQwYWY3MzMwZDYxYzp7Il9hdXRoX3VzZXJfYmFja2VuZCI6ImRqYW5nby5jb250cmliLmF1dGguYmFja2VuZHMuTW9kZWxCYWNrZW5kIiwiX2F1dGhfdXNlcl9pZCI6MX0="
+    }
+},
+{
+    "pk": 1, 
+    "model": "ops.organization", 
+    "fields": {
+        "name": "Kookmin University"
+    }
+},
+{
+    "pk": 1, 
+    "model": "ops.keyword", 
+    "fields": {
+        "name": "underwater acoustic networks"
+    }
+},
+{
+    "pk": 2, 
+    "model": "ops.keyword", 
+    "fields": {
+        "name": "wireless communications"
+    }
+},
+{
+    "pk": 3, 
+    "model": "ops.keyword", 
+    "fields": {
+        "name": "mac protocol"
+    }
+},
+{
+    "pk": 4, 
+    "model": "ops.keyword", 
+    "fields": {
+        "name": "embedded systems"
+    }
+},
+{
+    "pk": "wvkwzhe3pm8xzmjk", 
+    "model": "ops.paper", 
+    "fields": {
+        "abstract": "w bet      ywerybwerybsjz sf dfkhxkb khf sgsdm hzxcb zxcnb sdf hsdfh", 
+        "author": "tgzfxq74h9ptd65k", 
+        "keyword": [
+            4, 
+            1
+        ], 
+        "title": "This is first paper"
+    }
+},
+{
+    "pk": 1, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "add_logentry", 
+        "name": "Can add log entry", 
+        "content_type": 1
+    }
+},
+{
+    "pk": 2, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "change_logentry", 
+        "name": "Can change log entry", 
+        "content_type": 1
+    }
+},
+{
+    "pk": 3, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "delete_logentry", 
+        "name": "Can delete log entry", 
+        "content_type": 1
+    }
+},
+{
+    "pk": 4, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "add_permission", 
+        "name": "Can add permission", 
+        "content_type": 2
+    }
+},
+{
+    "pk": 5, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "change_permission", 
+        "name": "Can change permission", 
+        "content_type": 2
+    }
+},
+{
+    "pk": 6, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "delete_permission", 
+        "name": "Can delete permission", 
+        "content_type": 2
+    }
+},
+{
+    "pk": 7, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "add_group", 
+        "name": "Can add group", 
+        "content_type": 3
+    }
+},
+{
+    "pk": 8, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "change_group", 
+        "name": "Can change group", 
+        "content_type": 3
+    }
+},
+{
+    "pk": 9, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "delete_group", 
+        "name": "Can delete group", 
+        "content_type": 3
+    }
+},
+{
+    "pk": 10, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "add_user", 
+        "name": "Can add user", 
+        "content_type": 4
+    }
+},
+{
+    "pk": 11, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "change_user", 
+        "name": "Can change user", 
+        "content_type": 4
+    }
+},
+{
+    "pk": 12, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "delete_user", 
+        "name": "Can delete user", 
+        "content_type": 4
+    }
+},
+{
+    "pk": 13, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "add_contenttype", 
+        "name": "Can add content type", 
+        "content_type": 5
+    }
+},
+{
+    "pk": 14, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "change_contenttype", 
+        "name": "Can change content type", 
+        "content_type": 5
+    }
+},
+{
+    "pk": 15, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "delete_contenttype", 
+        "name": "Can delete content type", 
+        "content_type": 5
+    }
+},
+{
+    "pk": 16, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "add_session", 
+        "name": "Can add session", 
+        "content_type": 6
+    }
+},
+{
+    "pk": 17, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "change_session", 
+        "name": "Can change session", 
+        "content_type": 6
+    }
+},
+{
+    "pk": 18, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "delete_session", 
+        "name": "Can delete session", 
+        "content_type": 6
+    }
+},
+{
+    "pk": 19, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "add_organization", 
+        "name": "Can add organization", 
+        "content_type": 7
+    }
+},
+{
+    "pk": 20, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "change_organization", 
+        "name": "Can change organization", 
+        "content_type": 7
+    }
+},
+{
+    "pk": 21, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "delete_organization", 
+        "name": "Can delete organization", 
+        "content_type": 7
+    }
+},
+{
+    "pk": 22, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "add_keyword", 
+        "name": "Can add keyword", 
+        "content_type": 8
+    }
+},
+{
+    "pk": 23, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "change_keyword", 
+        "name": "Can change keyword", 
+        "content_type": 8
+    }
+},
+{
+    "pk": 24, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "delete_keyword", 
+        "name": "Can delete keyword", 
+        "content_type": 8
+    }
+},
+{
+    "pk": 25, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "add_author", 
+        "name": "Can add author", 
+        "content_type": 9
+    }
+},
+{
+    "pk": 26, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "change_author", 
+        "name": "Can change author", 
+        "content_type": 9
+    }
+},
+{
+    "pk": 27, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "delete_author", 
+        "name": "Can delete author", 
+        "content_type": 9
+    }
+},
+{
+    "pk": 28, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "add_paper", 
+        "name": "Can add paper", 
+        "content_type": 10
+    }
+},
+{
+    "pk": 29, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "change_paper", 
+        "name": "Can change paper", 
+        "content_type": 10
+    }
+},
+{
+    "pk": 30, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "delete_paper", 
+        "name": "Can delete paper", 
+        "content_type": 10
+    }
+},
+{
+    "pk": 1, 
+    "model": "auth.user", 
+    "fields": {
+        "username": "admin", 
+        "first_name": "", 
+        "last_name": "", 
+        "is_active": true, 
+        "is_superuser": true, 
+        "is_staff": true, 
+        "last_login": "2013-11-22T15:15:23.606Z", 
+        "groups": [], 
+        "user_permissions": [], 
+        "password": "pbkdf2_sha256$12000$VfZN97KbDt73$1HnCWRKiNbC7E7sWFVXOdSXcaGYkIJv+m2CsW9BmyP0=", 
+        "email": "admin@example.com", 
+        "date_joined": "2013-11-22T15:15:05.403Z"
+    }
+},
+{
+    "pk": 2, 
+    "model": "auth.user", 
+    "fields": {
+        "username": "anuice", 
+        "first_name": "", 
+        "last_name": "", 
+        "is_active": true, 
+        "is_superuser": false, 
+        "is_staff": false, 
+        "last_login": "2013-11-22T15:16:01.132Z", 
+        "groups": [], 
+        "user_permissions": [], 
+        "password": "pbkdf2_sha256$12000$2sKHrFCARjli$2hylbofUzRM2KswNjcOELkufjlxPgnRrFPZf44XQyaQ=", 
+        "email": "", 
+        "date_joined": "2013-11-22T15:16:01.132Z"
+    }
+},
+{
+    "pk": "ah78ml3jx0y37llq", 
+    "model": "ops.author", 
+    "fields": {
+        "first_name": "Sardorbek", 
+        "last_name": "Muminov", 
+        "country": "Uzbekistan", 
+        "initial": "Mr.", 
+        "user": 1, 
+        "organization": 1
+    }
+},
+{
+    "pk": "tgzfxq74h9ptd65k", 
+    "model": "ops.author", 
+    "fields": {
+        "first_name": "NamYeol", 
+        "last_name": "Yun", 
+        "country": "Korea", 
+        "initial": "Mr.", 
+        "user": 2, 
+        "organization": 1
+    }
+},
+{
+    "pk": 1, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2013-11-22T15:15:47.959Z", 
+        "object_repr": "Kookmin University", 
+        "object_id": "1", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 7
+    }
+},
+{
+    "pk": 2, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2013-11-22T15:15:49.234Z", 
+        "object_repr": "Muminov S.", 
+        "object_id": "ah78ml3jx0y37llq", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 9
+    }
+},
+{
+    "pk": 3, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2013-11-22T15:16:01.205Z", 
+        "object_repr": "anuice", 
+        "object_id": "2", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 4
+    }
+},
+{
+    "pk": 4, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2013-11-22T15:16:12.429Z", 
+        "object_repr": "Yun N.", 
+        "object_id": "tgzfxq74h9ptd65k", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 9
+    }
+},
+{
+    "pk": 5, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2013-11-22T15:16:29.193Z", 
+        "object_repr": "underwater acoustic networks", 
+        "object_id": "1", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 8
+    }
+},
+{
+    "pk": 6, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2013-11-22T15:16:36.677Z", 
+        "object_repr": "wireless communications", 
+        "object_id": "2", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 8
+    }
+},
+{
+    "pk": 7, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2013-11-22T15:16:41.311Z", 
+        "object_repr": "mac protocol", 
+        "object_id": "3", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 8
+    }
+},
+{
+    "pk": 8, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2013-11-22T15:16:46.300Z", 
+        "object_repr": "embedded systems", 
+        "object_id": "4", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 8
+    }
+},
+{
+    "pk": 9, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2013-11-22T15:18:06.934Z", 
+        "object_repr": "pnbeno3moebb4r3u", 
+        "object_id": "pnbeno3moebb4r3u", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 10
+    }
+},
+{
+    "pk": 10, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2013-11-22T15:18:16.849Z", 
+        "object_repr": "wvkwzhe3pm8xzmjk", 
+        "object_id": "wvkwzhe3pm8xzmjk", 
+        "change_message": "Changed abstract.", 
+        "user": 1, 
+        "content_type": 10
+    }
+},
+{
+    "pk": 11, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 3, 
+        "action_time": "2013-11-22T15:18:23.189Z", 
+        "object_repr": "pnbeno3moebb4r3u", 
+        "object_id": "pnbeno3moebb4r3u", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 10
+    }
+}
+]
